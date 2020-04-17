@@ -1,2 +1,2 @@
-#Rozvržení
-###1. OVLÁDNOUT GITHUB  
+# Rozvržení
+### 1. OVLÁDNOUT GITHUB  
