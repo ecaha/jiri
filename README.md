@@ -24,3 +24,5 @@
 
 ##### ZDROJE:
 [ESP8266 Part #3 – SSD1306 OLED Displays with MicroPython](https://www.youtube.com/watch?v=Fl61uiyRQdM "Zobrazit na YouTube")
+[ESP8266 NodeMCU OLED Display Clock Iot Tutorial](https://www.youtube.com/watch?v=gC8btktOYOg "Zobrazit na YouTube")
+[MicroPython: OLED Display with ESP32 and ESP8266](https://randomnerdtutorials.com/micropython-oled-display-esp32-esp8266/ "Zobrazit na randomnerdtutorials.com")
