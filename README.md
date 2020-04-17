@@ -12,3 +12,6 @@
 - **Hodně důležité**
 
 Pozn.: *Není to vůbec důležité*
+
+---------------------------------
+[Podmetics](https://github.com/ecaha/jiri/edit/master/README.md "Ale tohle jo")
