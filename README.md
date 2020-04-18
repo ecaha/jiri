@@ -30,7 +30,6 @@
 [MicroPython: OLED Display with ESP32 and ESP8266](https://randomnerdtutorials.com/micropython-oled-display-esp32-esp8266/ "Zobrazit na randomnerdtutorials.com")
 
 # Práce
-Prvně jsem nainstaloval [Python](https://www.microsoft.com/cs-cz/p/python-38/9mssztt1n39l?activetab=pivot:overviewtab) do počítače. 
-
-'''python
-sdwaw
+Prvně jsem nainstaloval [Python](https://www.microsoft.com/cs-cz/p/python-38/9mssztt1n39l?activetab=pivot:overviewtab) do počítače.
+Potom jsem nainstaloval esptool v command promtu / power shellu příkazem:
+```pip install esptool```
