@@ -48,6 +48,7 @@ Místo <port> je potřeba dosadit název portu, do kterého je ESP8266 připojen
 Pro použití příkazu je potřeba přes příkaz `cd` se dostat do složky, kde máte uloženou složku s esptoolem.
 
 Teď je potřeba dostat python do ESP8266 příkazem:
-`esptool.py --port <port> --baud 460800 write_flash --flash_size=detect -fm dio 0 <název firmwaru, staženého souboru bin`
+
+`esptool.py --port <port> --baud 460800 write_flash --flash_size=detect -fm dio 0 <název firmwaru, staženého souboru bin>`
 
 Teď je Python úspěšně v ESP8266
