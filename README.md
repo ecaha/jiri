@@ -43,7 +43,7 @@ Teď se dostáváme do části kdy většina tutoriálů používá příkazy Ma
 
 ```python esptool.py --port <port> erase_flash```
 
-Místo <port> je potřeba dosadit název portu, do kterého je ESP8266 připojeno (např. v mém případě com3). Název portu se dá zjistit v device manageru pod položkou Ports (COM & LPT).
+Místo `<port>` je potřeba dosadit název portu, do kterého je ESP8266 připojeno (např. v mém případě com3). Název portu se dá zjistit v device manageru pod položkou Ports (COM & LPT).
 
 Pro použití příkazu je potřeba přes příkaz `cd` se dostat do složky, kde máte uloženou složku s esptoolem.
 
