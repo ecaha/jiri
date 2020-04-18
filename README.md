@@ -29,7 +29,7 @@
 
 [MicroPython: OLED Display with ESP32 and ESP8266](https://randomnerdtutorials.com/micropython-oled-display-esp32-esp8266/ "Zobrazit na randomnerdtutorials.com")
 
-[1. Getting started with MicroPython on the ESP8266](http://docs.micropython.org/en/latest/esp8266/quickref.html "Zobrazit na docs.micropython.org
+[1. Getting started with MicroPython on the ESP8266](http://docs.micropython.org/en/latest/esp8266/quickref.html "Zobrazit na docs.micropython.org")
 
 # Práce
 Prvně jsem nainstaloval [Python](https://www.microsoft.com/cs-cz/p/python-38/9mssztt1n39l?activetab=pivot:overviewtab) do počítače.
