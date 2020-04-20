@@ -60,4 +60,5 @@ Jakmile úspěšně otevřeme PuTTY potřebujeme importovat 2 knihovny z micropy
 Takže by to mělo vypadat takhle:
 
 `>>> import time
+
 >>> import machine`
