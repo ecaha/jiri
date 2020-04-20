@@ -66,7 +66,7 @@ Teď je potřeba definovat pin:
 
 `>>> pin = machine.Pin(2, machine.Pin.OUT)`
 
-_pozn.: pin 2 zastává pin DH4. Takhle je to jen u ESP8266._
+_pozn.: pin 2 zastává pin DH4. DH4 je pin vbudované led diody Takhle je to jen u ESP8266._
 
 ![Pins](https://github.com/ecaha/jiri/blob/master/esp8266pins.jpg "Logo Title Text 2")
 
