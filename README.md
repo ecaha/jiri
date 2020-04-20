@@ -70,3 +70,33 @@ _pozn.: pin 2 zastává pin DH4. DH4 je pin vbudované led diody Takhle je to je
 
 ![Pins](https://github.com/ecaha/jiri/blob/master/esp8266pins.jpg "Logo Title Text 2")
 
+Teď to zkusíme rozsvítit a zhasnout.
+```
+>>> pin.on()
+>>> pin.off()
+```
+Může to být i převráceně, takže on může diodu vypnout a naopak.
+
+Potom můžeme definovat příkaz, kterým můžeme diodu zapnout i vypnout.
+```
+>>> def toggle(p):
+...    p.value(not p.value())
+...
+...
+...
+>>>
+```
+Teď to bude fungovat jako příkaz `toggle(pin)`
+
+A teď uděláme smyčku která bude jednodušše zapínat a vypínat diodu v určitém intervalu.
+```
+>>> while True:
+...     toggle(pin)
+...     time.sleep_ms(500)
+...
+...
+...
+>>>
+```
+Vbudovaná dioda by měla teď blikat.
+Pro ukončení smyčky stačí restartovat esp, ale všechno se vrátí tak jak bylo, takže pak je potřeba znovu naimportovat potřebné knihovny a definovat definice.
