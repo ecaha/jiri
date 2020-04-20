@@ -53,7 +53,7 @@ Teď je potřeba dostat python do ESP8266 příkazem:
 
 Teď je Python úspěšně v ESP8266
 
-Teď je na čase rozblikat built in led světlo esp8266. Na tohle je potřeba program [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). V PuTTY je potřeba se dostat do esp. Je potřeba změnit connection type na "Serial", do "Serial line" napsat port, do kterého je esp připojené (to se dá zjisit přes divice manager pod položkou Ports (COM & LPT). Do "Speed" napsat 115200 a pak nastává problém který jsme poměrně dlouho řešili. V levé nabídce úplně dole lze najít pod nabídkou "Connection" "Serial". Tam je potřeba změnit flow control na None. Jinak po otevření session se nedá psát.
+Teď je na čase rozblikat built in led světlo esp8266. Na tohle je potřeba program [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). V PuTTY je potřeba se dostat do esp. Je potřeba změnit connection type na "Serial", do "Serial line" napsat port, do kterého je esp připojené. Do "Speed" napsat 115200 a pak nastává problém který jsme poměrně dlouho řešili. V levé nabídce úplně dole lze najít pod nabídkou "Connection" "Serial". Tam je potřeba změnit flow control na None. Jinak po otevření session se nedá psát.
 
 Jakmile úspěšně otevřeme PuTTY potřebujeme importovat 2 knihovny z micropythonu. Na začátku každého kódu co se bude používat je potřeba naimportovat knihovny se kterými program bude potom pracovat. Potřeba budou knihovny time a machine. To uděláme příkazem `import <knihovna>`.
 
@@ -62,4 +62,11 @@ Takže by to mělo vypadat takhle:
 >>> import time
 >>> import machine
 ```
+Teď je potřeba definovat pin:
+
+`>>> pin = machine.Pin(2, machine.Pin.OUT)`
+
+_pozn.: pin 2 zastává pin DH4. Takhle je to jen u ESP8266._
+
+[Pins]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Click here"
 
