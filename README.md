@@ -40,8 +40,9 @@ Potom jsem nainstaloval esptool v command promtu (příkazovém řádku) / power
 Dále bylo potřeba stáhnout [micropython](http://micropython.org/download/), [frimware](http://micropython.org/download/esp8266/) a [esptool](https://github.com/espressif/esptool). Používal jsem micropython-1.12 a esp8266-20200417-v1.12-375-g28833690b.bin, nejnovější verze, firmware byl z kategorie Daily.
 
 Teď se dostáváme do části kdy většina tutoriálů používá příkazy MacOS. Windows používá příkaz:
-
-```python esptool.py --port <port> erase_flash```
+```python
+python esptool.py --port <port> erase_flash
+```
 
 Místo `<port>` je potřeba dosadit název portu, do kterého je ESP8266 připojeno (např. v mém případě com3). Název portu se dá zjistit v device manageru pod položkou Ports (COM & LPT).
 
