@@ -59,7 +59,7 @@ Teď je potřeba definovat pin:
 
 _pozn.: pin 2 zastává pin DH4. DH4 je pin vbudované led diody Takhle je to jen u ESP8266._
 
-![Pins](https://github.com/ecaha/jiri/blob/master/esp8266pins.jpg "Logo Title Text 2")
+![Pins](esp8266pins.jpg "Logo Title Text 2")
 
 Teď to zkusíme rozsvítit a zhasnout.
 ```
