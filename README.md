@@ -320,9 +320,11 @@ Formát je: `rtc.datetime((rok, měsíc, den, 1, hodina, minuta, sekunda, milise
 
 __A hodiny jsou hotové!__
 
+![Foto](https://github.com/ecaha/jiri/blob/master/IMG_20200420_172222.jpg "Foto hodin")
+ 
 <video src="https://github.com/ecaha/jiri/blob/master/VID_29470509_093311_875.mp4" width="1280" height="720" controls preload type="video/mp4"></video>
 
-![Obrázek](https://github.com/ecaha/jiri/blob/master/IMG_20200420_172222.jpg)
+
 
 # Zdroje
 
