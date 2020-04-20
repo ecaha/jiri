@@ -52,3 +52,5 @@ Teď je potřeba dostat python do ESP8266 příkazem:
 `esptool.py --port <port> --baud 460800 write_flash --flash_size=detect -fm dio 0 <název firmwaru, staženého souboru bin>`
 
 Teď je Python úspěšně v ESP8266
+
+Teď je na čase rozblikat built in led světlo esp8266. Na tohle je potřeba program [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). V něm je potřeba 
