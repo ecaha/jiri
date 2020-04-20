@@ -320,7 +320,7 @@ Formát je: `rtc.datetime((rok, měsíc, den, 1, hodina, minuta, sekunda, milise
 
 __A hodiny jsou hotové!__
 
-#Zdroje
+# Zdroje
 
 [ESP8266 Part #3 – SSD1306 OLED Displays with MicroPython](https://www.youtube.com/watch?v=Fl61uiyRQdM "Zobrazit na YouTube")
 
