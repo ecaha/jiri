@@ -68,5 +68,5 @@ Teď je potřeba definovat pin:
 
 _pozn.: pin 2 zastává pin DH4. Takhle je to jen u ESP8266._
 
-[Pins]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Click here"
+[Pins]: https://github.com/ecaha/jiri/blob/master/esp8266pins.jpg "Logo Title Text 2"
 
