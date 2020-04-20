@@ -98,5 +98,7 @@ A teď uděláme smyčku která bude jednodušše zapínat a vypínat diodu v ur
 ...
 >>>
 ```
+
 Vbudovaná dioda by měla teď blikat.
+
 Pro ukončení smyčky stačí restartovat esp, ale všechno se vrátí tak jak bylo, takže pak je potřeba znovu naimportovat potřebné knihovny a definovat definice.
